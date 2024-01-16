@@ -1,5 +1,59 @@
 @import "~bootstrap/scss/bootstrap";
 
-body {
-    background-color: lightgreen;
+img {
+    width: 180px;
+    height: 180px;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    .container {
+        height: fit-content;
+    }
+
+    img {
+        width: 100%;
+        height: fit-content;
+    }
+
+    ul {
+        list-style-type: none;
+    }
+
+    select {
+        border-style: none;
+    }
+}
+
+#jumbotron {
+    width: 100%;
+    height: 400px;
+    background-image: url('../img/jumbotron.jpg');
+    background-size: cover;
+}
+
+h5 {
+    max-width: 180px;
+    color: white;
+}
+
+.comics-part {
+    background-color: rgb(34, 34, 34);
+}
+
+.main-menu {
+    background-color: rgb(7, 129, 249);
+
+    img {
+        width: 70px;
+        height: 70px;
+    }
+
+    span {
+        color: white;
+    }
+
 }
